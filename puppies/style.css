@@ -1,0 +1,199 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans:wght@400;600&display=swap');
+
+
+/* back ground backup color #fde7e7 */
+
+
+h1 {
+  text-align: center;
+  font-family: 'Encode Sans', sans-serif;
+  font-weight: 600;
+  color: #F6878A;
+  text-shadow: 2px 2px 2px #43457b;
+}
+
+
+h2{
+   font-family: 'Encode Sans', sans-serif;
+  font-weight: 400 !important;
+
+}
+
+h3{
+   font-family: 'Encode Sans', sans-serif;
+  font-weight: 400 !important;
+
+}
+.page-title{
+   font-family: 'Encode Sans', sans-serif;
+   letter-spacing: 4px;
+}
+
+body {
+  font-family: 'Encode Sans', sans-serif;
+  margin: 0;
+  position: relative; /* set position to relative to enable absolute positioning of pseudo-element */
+}
+
+body::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; /*change to bachground cover*/
+  background-image: url(images/green-grass.jpg);
+  opacity: 0.5;
+  z-index: -1;
+}
+
+
+ 
+
+a:link {
+  color: #43457b;
+}
+
+a:visited {
+  color: #43457b;
+}
+
+a:hover {
+  color: #43457b;
+}
+
+a:active {
+  color: #43457b;
+}
+
+nav{
+   font-family: 'Encode Sans', sans-serif;
+  font-weight: 600;
+   background-color: #F6878A;
+   border-top: 5px solid #43457b;
+   border-bottom: 5px solid #43457b;
+   padding: 5px;
+
+}
+
+nav ul {
+   list-style-type: none;
+   text-align: center;
+}
+nav li {
+   display: inline;
+
+}
+nav a {
+   text-decoration: none;
+   padding-right: 30px;
+}
+nav a:link{
+   color: 
+#43457b;
+   font-size: 30px;
+}
+nav a:visited{
+   color: 
+#43457b;
+}
+nav a:hover{
+   color: 
+#43457b;
+}
+nav a:active{
+   color: 
+#43457b;
+}
+
+main {
+   padding-top: 10px;
+  max-width: 1200px;
+  display: block;
+  margin: 0px auto;
+
+}
+
+footer{
+   border-top: 5px solid #43457b !important;
+   background-color: #F6878A;
+   text-align: center;
+   border-top: 1px solid grey;
+   padding: 10px;
+}
+
+.home-hero{
+   background-image: url(images/header.jpg);
+   height: 475px;
+   background-size: cover;
+   background-position: center;
+   color: #363762;
+   padding: 10px 10px 10px 30px;
+}
+
+
+
+p{
+   font-family: 'Encode Sans', sans-serif;
+  font-weight: 400 !important;
+   text-align: center;
+   color: #43457b;
+   font-size: 40px;
+
+}
+
+
+
+.true-paragraph{
+   text-align: left;
+   font-size: 30px;
+
+}
+
+img{
+   display: block;
+   margin: 0 auto;
+   border: solid 3px #F6878A;
+   padding: 5px;
+}
+
+.col-sm-4{
+
+}
+
+i{
+   color: #43457b;
+
+}
+
+small{
+   color: #43457b;
+
+}
+
+a{
+   font-size: 30px;
+}
+
+
+
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+      font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+   h1{
+      font-size: 1.8em;
+}
+}
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+   h1{
+      font-size: 1.5em;
+   }
+}
